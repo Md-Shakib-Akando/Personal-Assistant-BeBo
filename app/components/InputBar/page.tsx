@@ -1,7 +1,20 @@
 "use client";
 import { Send, Mic, Paperclip } from "lucide-react";
+interface InputBarProps {
+    isDark: boolean;
+    inputValue: string;
+    setInputValue: (value: string) => void;
+    handleSend: () => void;
+    isLoading: boolean;
+}
 
-export default function InputBar({ isDark, inputValue, setInputValue, handleSend, isLoading }: any) {
+export default function InputBar({
+    isDark,
+    inputValue,
+    setInputValue,
+    handleSend,
+    isLoading,
+}: InputBarProps) {
     return (
         <div
             className={`sticky bottom-0 border-t transition-all ${isDark

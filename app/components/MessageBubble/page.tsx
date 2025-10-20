@@ -1,6 +1,16 @@
 "use client";
+interface Message {
+    id: number;
+    type: "user" | "ai";
+    content: string;
+}
 
-export default function MessageBubble({ msg, isDark }: any) {
+interface MessageBubbleProps {
+    msg: Message;
+    isDark: boolean;
+}
+
+export default function MessageBubble({ msg, isDark }: MessageBubbleProps) {
     const isUser = msg.type === "user";
     return (
         <div className={`flex ${isUser ? "justify-end" : "justify-start"}`}>

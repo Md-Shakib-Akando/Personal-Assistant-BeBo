@@ -1,7 +1,14 @@
 "use client";
-import { Plus, MessageSquare, Trash2, Settings2 } from "lucide-react";
+import { Plus, MessageSquare, Trash2 } from "lucide-react";
 
-export default function Sidebar({ isDark, sidebarOpen, setSidebarOpen }: any) {
+interface SidebarProps {
+    isDark: boolean;
+    sidebarOpen: boolean;
+    setSidebarOpen?: (open: boolean) => void;
+}
+
+export default function Sidebar({ isDark, sidebarOpen }: SidebarProps) {
+
     return (
         <div
             className={`fixed md:relative w-full md:w-64 min-h-[calc(100vh-64px)] transition-all border-l ${isDark

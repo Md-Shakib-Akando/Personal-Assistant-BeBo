@@ -2,8 +2,14 @@
 import { Sun, Moon, Menu, X } from "lucide-react";
 import logo from "../../../public/logo.png";
 import Image from "next/image";
+interface NavbarProps {
+    isDark: boolean;
+    setIsDark: (val: boolean) => void;
+    sidebarOpen: boolean;
+    setSidebarOpen: (val: boolean) => void;
+}
 
-export default function Navbar({ isDark, setIsDark, sidebarOpen, setSidebarOpen }: any) {
+export default function Navbar({ isDark, setIsDark, sidebarOpen, setSidebarOpen }: NavbarProps) {
     return (
         <nav
             className={`fixed top-0 w-full z-40 border-b transition-all duration-300 ${isDark
