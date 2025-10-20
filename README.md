@@ -1,5 +1,14 @@
 # Bebeo Assistant Web App
 
+## 🌐 Live Link
+Live link: https://assistant-bebo.onrender.com/  
+
+---
+
+
+![Home](https://i.ibb.co.com/qMM21JZQ/Screenshot-2025-10-20-225710.png)
+
+---
 **Bebeo Assistant** is a modern web application that provides AI-powered responses based on user input. It features a responsive and attractive UI with multilingual support and dark mode.  
 
 ## 🚀 Features (Current)
