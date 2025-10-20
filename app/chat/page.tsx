@@ -6,6 +6,7 @@ import Navbar from "../components/Navbar/page";
 
 
 export default function ChatPage() {
+
   const [isDark, setIsDark] = useState(true);
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
