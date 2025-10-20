@@ -1,5 +1,7 @@
 "use client";
 import { Sun, Moon, Menu, X } from "lucide-react";
+import logo from "../../../public/logo.png";
+import Image from "next/image";
 
 export default function Navbar({ isDark, setIsDark, sidebarOpen, setSidebarOpen }: any) {
     return (
@@ -11,8 +13,8 @@ export default function Navbar({ isDark, setIsDark, sidebarOpen, setSidebarOpen 
         >
             <div className="max-w-11/12 mx-auto px-4 h-16 flex items-center justify-between">
                 <div className="flex items-center gap-2 font-bold text-xl">
-                    <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
-                        <span className="text-white text-sm font-black">B</span>
+                    <div className="w-8 h-8 rounded-lg  flex items-center justify-center">
+                        <Image src={logo} alt="Logo" width={44} height={44} />
                     </div>
                     <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
                         BeBo
