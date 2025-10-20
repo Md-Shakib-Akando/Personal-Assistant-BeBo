@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Bebeo Assistant Web App
 
-## Getting Started
+**Bebeo Assistant** is a modern web application that provides AI-powered responses based on user input. It features a responsive and attractive UI with multilingual support and dark mode.  
 
-First, run the development server:
+## 🚀 Features (Current)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- ✨ **User Input Response:** Get instant responses for any text input.
+- 🌐 **OpenRoute API Integration:** Reliable and fast responses using OpenRoute API.
+- 📱 **Responsive UI:** Optimized for mobile, tablet, and desktop devices.
+- 🌙 **Dark Mode:** Seamless light/dark mode toggle for user comfort.
+- 💬 **Multilingual Support:** Supports multiple languages for global users.
+- 🎨 **Modern & Attractive UI:** Clean, user-friendly, and future-ready design.
+- ⚡ **Fast Performance:** Quick loading and response times.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔮 Future Enhancements
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 🆕 **New Chat Option:** Start multiple chat sessions simultaneously.
+- 🗂️ **Chat History:** Save and view previous conversations.
+- 🔔 **Notifications:** Real-time updates for new responses.
+- 🤖 **AI Enhancements:** Smarter responses and contextual understanding.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠 Tech Stack
 
-## Learn More
+- **Frontend:** Next.js,  Tailwind CSS (Responsive & Modern Design)
+- **Backend:** Node.js, Express
+- **API Integration:** OpenRoute API
+- **Optional (Future):** Database for chat history (MongoDB/PostgreSQL)
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
