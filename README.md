@@ -1,7 +1,7 @@
 # Bebeo Assistant Web App
 
 ## 🌐 Live Link
-Live link: https://assistant-bebo.onrender.com/  
+Live link: https://assistant-bebo.vercel.app/  
 
 ---
 
